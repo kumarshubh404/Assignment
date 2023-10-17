@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revrse String</title>
+<script type="text/javaScript">
+ 
+ function reverseWords(str) {
+  let reverseWordArr = str.split(" ").map(word => word.split("").reverse().join(""));  
+  return reverseWordArr.join(" ");
+}
+console.log(reverseWords("This is a sunny day"))
+
+</script>
+    
+</head>
+<body>
+    
+</body>
+</html>
